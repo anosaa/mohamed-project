@@ -1,0 +1,102 @@
+
+
+
+.position-relative {
+    position: relative;
+  }
+  .left-centered-text {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    color: white; /* Ensure the text is visible over the image */
+    text-align: left; /* Align the text to the left */
+    padding-left: 20px; /* Add some padding to the left for better visibility */
+  }
+
+  .left-half {
+    background-color: #f8f9fa; /* لون الخلفية للنصف الأيسر */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* اجعل الارتفاع يغطي الشاشة بالكامل */
+  }
+  .right-half {
+    background-color: #e9ecef; /* لون الخلفية للنصف الأيمن */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    height: 100vh; /* اجعل الارتفاع يغطي الشاشة بالكامل */
+  }
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  .productTitle {
+    
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 2rem; /* حجم الخط للعناوين */
+  }
+  .productDesc {
+    text-align: left;
+    font-size: 1.2rem; /* حجم الخط للوصف */
+    line-height: 1.5; /* ارتفاع السطر لتحسين القراءة */
+    margin-bottom: 20px;
+  }
+  .btn-custom {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .btn-custom a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .card-img {
+    width: 100%;
+    height: auto;
+  }
+  .card {
+    margin-bottom: 20px;
+  }
+  .docTitle {
+    text-align: center;
+    margin: 20px 0;
+  }
+  .card-img-top {
+    width: 100%;
+    height: 250px; /* ضبط ارتفاع الصورة */
+    object-fit: contain; /* ضمان ظهور الصورة بالكامل */
+  }
+  .card {
+    margin-bottom: 20px;
+  }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px; /* ضبط ارتفاع محتوى البطاقة ليكون متساوي */
+  }
+  .docTitle {
+    text-align: center;
+    margin: 20px 0;
+  }
+  .studentTitle {
+    text-align: center;
+    margin: 20px 0;
+  }
+  .talk {
+    color: #007bff;
+  }
